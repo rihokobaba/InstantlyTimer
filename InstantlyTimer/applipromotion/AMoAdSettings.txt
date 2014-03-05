@@ -1,0 +1,5 @@
+appKey=PWWGU16XTWZDKTVU
+test=NO
+conversion=YES
+screen=auto
+timeoutInterval=2

@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5512F28418BC74A00021CBB9 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 5512F28318BC74A00021CBB9 /* setting.png */; };
+		5512F28618BC74AF0021CBB9 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 5512F28518BC74AF0021CBB9 /* back.png */; };
+		5512F29E18BCE14B0021CBB9 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5512F29D18BCE14B0021CBB9 /* AdSupport.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		5512F2B218BCE2D50021CBB9 /* AMoAdSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5512F2AF18BCE2D50021CBB9 /* AMoAdSDK.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		5512F2B318BCE2D50021CBB9 /* AMoAdSettings.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5512F2B118BCE2D50021CBB9 /* AMoAdSettings.txt */; };
+		5540329A18B4EAEB00C81505 /* SettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5540329918B4EAEB00C81505 /* SettingView.m */; };
+		5540329D18B4EB0400C81505 /* StartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5540329C18B4EB0400C81505 /* StartView.m */; };
+		554032A018B4EB2200C81505 /* TimerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5540329F18B4EB2200C81505 /* TimerView.m */; };
+		5576D84E18B3A54C008AD853 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5576D84D18B3A54C008AD853 /* Foundation.framework */; };
+		5576D85018B3A54C008AD853 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5576D84F18B3A54C008AD853 /* CoreGraphics.framework */; };
+		5576D85218B3A54C008AD853 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5576D85118B3A54C008AD853 /* UIKit.framework */; };
+		5576D85818B3A54C008AD853 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5576D85618B3A54C008AD853 /* InfoPlist.strings */; };
+		5576D85A18B3A54C008AD853 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5576D85918B3A54C008AD853 /* main.m */; };
+		5576D85E18B3A54C008AD853 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5576D85D18B3A54C008AD853 /* AppDelegate.m */; };
+		5576D86118B3A54D008AD853 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5576D85F18B3A54D008AD853 /* Main_iPhone.storyboard */; };
+		5576D86418B3A54D008AD853 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5576D86218B3A54D008AD853 /* Main_iPad.storyboard */; };
+		5576D86718B3A54D008AD853 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5576D86618B3A54D008AD853 /* MainViewController.m */; };
+		5576D86918B3A54D008AD853 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5576D86818B3A54D008AD853 /* Images.xcassets */; };
+		5576D88C18B491EC008AD853 /* moreapp.png in Resources */ = {isa = PBXBuildFile; fileRef = 5576D88718B491EB008AD853 /* moreapp.png */; };
+		5576D88D18B491EC008AD853 /* resume.png in Resources */ = {isa = PBXBuildFile; fileRef = 5576D88818B491EC008AD853 /* resume.png */; };
+		5576D88E18B491EC008AD853 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 5576D88918B491EC008AD853 /* start.png */; };
+		5576D88F18B491EC008AD853 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 5576D88A18B491EC008AD853 /* stop.png */; };
+		5576D89018B491EC008AD853 /* store.png in Resources */ = {isa = PBXBuildFile; fileRef = 5576D88B18B491EC008AD853 /* store.png */; };
+		5576D89218B49202008AD853 /* cansel.png in Resources */ = {isa = PBXBuildFile; fileRef = 5576D89118B49202008AD853 /* cansel.png */; };
+		5576D89618B4920B008AD853 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5576D89318B4920B008AD853 /* 1.png */; };
+		5576D89718B4920B008AD853 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5576D89418B4920B008AD853 /* 2.png */; };
+		5576D89818B4920B008AD853 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5576D89518B4920B008AD853 /* 3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5512F28318BC74A00021CBB9 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		5512F28518BC74AF0021CBB9 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		5512F29D18BCE14B0021CBB9 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		5512F2AF18BCE2D50021CBB9 /* AMoAdSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = AMoAdSDK.a; path = applipromotion/AMoAdSDK.a; sourceTree = "<group>"; };
+		5512F2B018BCE2D50021CBB9 /* AMoAdSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMoAdSDK.h; path = applipromotion/AMoAdSDK.h; sourceTree = "<group>"; };
+		5512F2B118BCE2D50021CBB9 /* AMoAdSettings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AMoAdSettings.txt; path = applipromotion/AMoAdSettings.txt; sourceTree = "<group>"; };
+		5540329818B4EAEB00C81505 /* SettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingView.h; sourceTree = "<group>"; };
+		5540329918B4EAEB00C81505 /* SettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingView.m; sourceTree = "<group>"; };
+		5540329B18B4EB0400C81505 /* StartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartView.h; sourceTree = "<group>"; };
+		5540329C18B4EB0400C81505 /* StartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartView.m; sourceTree = "<group>"; };
+		5540329E18B4EB2200C81505 /* TimerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerView.h; sourceTree = "<group>"; };
+		5540329F18B4EB2200C81505 /* TimerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerView.m; sourceTree = "<group>"; };
+		5576D84A18B3A54C008AD853 /* InstantlyTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstantlyTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5576D84D18B3A54C008AD853 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5576D84F18B3A54C008AD853 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5576D85118B3A54C008AD853 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5576D85518B3A54C008AD853 /* InstantlyTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstantlyTimer-Info.plist"; sourceTree = "<group>"; };
+		5576D85718B3A54C008AD853 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5576D85918B3A54C008AD853 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5576D85B18B3A54C008AD853 /* InstantlyTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstantlyTimer-Prefix.pch"; sourceTree = "<group>"; };
+		5576D85C18B3A54C008AD853 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5576D85D18B3A54C008AD853 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5576D86018B3A54D008AD853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		5576D86318B3A54D008AD853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		5576D86518B3A54D008AD853 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5576D86618B3A54D008AD853 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5576D86818B3A54D008AD853 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5576D86F18B3A54D008AD853 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5576D87718B3A54D008AD853 /* InstantlyTimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstantlyTimerTests-Info.plist"; sourceTree = "<group>"; };
+		5576D87918B3A54D008AD853 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5576D87B18B3A54D008AD853 /* InstantlyTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstantlyTimerTests.m; sourceTree = "<group>"; };
+		5576D88718B491EB008AD853 /* moreapp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moreapp.png; sourceTree = "<group>"; };
+		5576D88818B491EC008AD853 /* resume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resume.png; sourceTree = "<group>"; };
+		5576D88918B491EC008AD853 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		5576D88A18B491EC008AD853 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		5576D88B18B491EC008AD853 /* store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store.png; sourceTree = "<group>"; };
+		5576D89118B49202008AD853 /* cansel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cansel.png; sourceTree = "<group>"; };
+		5576D89318B4920B008AD853 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		5576D89418B4920B008AD853 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		5576D89518B4920B008AD853 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5576D84718B3A54C008AD853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5512F2B218BCE2D50021CBB9 /* AMoAdSDK.a in Frameworks */,
+				5512F29E18BCE14B0021CBB9 /* AdSupport.framework in Frameworks */,
+				5576D85018B3A54C008AD853 /* CoreGraphics.framework in Frameworks */,
+				5576D85218B3A54C008AD853 /* UIKit.framework in Frameworks */,
+				5576D84E18B3A54C008AD853 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5540329718B4E8B200C81505 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				5512F28518BC74AF0021CBB9 /* back.png */,
+				5512F28318BC74A00021CBB9 /* setting.png */,
+				5576D89318B4920B008AD853 /* 1.png */,
+				5576D89418B4920B008AD853 /* 2.png */,
+				5576D89518B4920B008AD853 /* 3.png */,
+				5576D89118B49202008AD853 /* cansel.png */,
+				5576D88718B491EB008AD853 /* moreapp.png */,
+				5576D88818B491EC008AD853 /* resume.png */,
+				5576D88918B491EC008AD853 /* start.png */,
+				5576D88A18B491EC008AD853 /* stop.png */,
+				5576D88B18B491EC008AD853 /* store.png */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
+		5576D84118B3A54C008AD853 = {
+			isa = PBXGroup;
+			children = (
+				5576D85318B3A54C008AD853 /* InstantlyTimer */,
+				5576D87518B3A54D008AD853 /* InstantlyTimerTests */,
+				5576D84C18B3A54C008AD853 /* Frameworks */,
+				5576D84B18B3A54C008AD853 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5576D84B18B3A54C008AD853 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5576D84A18B3A54C008AD853 /* InstantlyTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5576D84C18B3A54C008AD853 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5512F29D18BCE14B0021CBB9 /* AdSupport.framework */,
+				5576D84D18B3A54C008AD853 /* Foundation.framework */,
+				5576D84F18B3A54C008AD853 /* CoreGraphics.framework */,
+				5576D85118B3A54C008AD853 /* UIKit.framework */,
+				5576D86F18B3A54D008AD853 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5576D85318B3A54C008AD853 /* InstantlyTimer */ = {
+			isa = PBXGroup;
+			children = (
+				5512F2AF18BCE2D50021CBB9 /* AMoAdSDK.a */,
+				5512F2B018BCE2D50021CBB9 /* AMoAdSDK.h */,
+				5512F2B118BCE2D50021CBB9 /* AMoAdSettings.txt */,
+				5540329718B4E8B200C81505 /* res */,
+				5576D88518B3A562008AD853 /* storyboard */,
+				5576D85C18B3A54C008AD853 /* AppDelegate.h */,
+				5576D85D18B3A54C008AD853 /* AppDelegate.m */,
+				5576D86518B3A54D008AD853 /* MainViewController.h */,
+				5576D86618B3A54D008AD853 /* MainViewController.m */,
+				5576D86818B3A54D008AD853 /* Images.xcassets */,
+				5576D85418B3A54C008AD853 /* Supporting Files */,
+				5540329818B4EAEB00C81505 /* SettingView.h */,
+				5540329918B4EAEB00C81505 /* SettingView.m */,
+				5540329B18B4EB0400C81505 /* StartView.h */,
+				5540329C18B4EB0400C81505 /* StartView.m */,
+				5540329E18B4EB2200C81505 /* TimerView.h */,
+				5540329F18B4EB2200C81505 /* TimerView.m */,
+			);
+			path = InstantlyTimer;
+			sourceTree = "<group>";
+		};
+		5576D85418B3A54C008AD853 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5576D85518B3A54C008AD853 /* InstantlyTimer-Info.plist */,
+				5576D85618B3A54C008AD853 /* InfoPlist.strings */,
+				5576D85918B3A54C008AD853 /* main.m */,
+				5576D85B18B3A54C008AD853 /* InstantlyTimer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5576D87518B3A54D008AD853 /* InstantlyTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5576D87B18B3A54D008AD853 /* InstantlyTimerTests.m */,
+				5576D87618B3A54D008AD853 /* Supporting Files */,
+			);
+			path = InstantlyTimerTests;
+			sourceTree = "<group>";
+		};
+		5576D87618B3A54D008AD853 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5576D87718B3A54D008AD853 /* InstantlyTimerTests-Info.plist */,
+				5576D87818B3A54D008AD853 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5576D88518B3A562008AD853 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5576D85F18B3A54D008AD853 /* Main_iPhone.storyboard */,
+				5576D86218B3A54D008AD853 /* Main_iPad.storyboard */,
+			);
+			name = storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5576D84918B3A54C008AD853 /* InstantlyTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5576D87F18B3A54D008AD853 /* Build configuration list for PBXNativeTarget "InstantlyTimer" */;
+			buildPhases = (
+				5576D84618B3A54C008AD853 /* Sources */,
+				5576D84718B3A54C008AD853 /* Frameworks */,
+				5576D84818B3A54C008AD853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstantlyTimer;
+			productName = InstantlyTimer;
+			productReference = 5576D84A18B3A54C008AD853 /* InstantlyTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5576D84218B3A54C008AD853 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = aiharakohei;
+				TargetAttributes = {
+					5576D84918B3A54C008AD853 = {
+						DevelopmentTeam = 56Y5QT5GL8;
+					};
+				};
+			};
+			buildConfigurationList = 5576D84518B3A54C008AD853 /* Build configuration list for PBXProject "InstantlyTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5576D84118B3A54C008AD853;
+			productRefGroup = 5576D84B18B3A54C008AD853 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5576D84918B3A54C008AD853 /* InstantlyTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5576D84818B3A54C008AD853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5576D89618B4920B008AD853 /* 1.png in Resources */,
+				5576D88D18B491EC008AD853 /* resume.png in Resources */,
+				5512F2B318BCE2D50021CBB9 /* AMoAdSettings.txt in Resources */,
+				5576D89018B491EC008AD853 /* store.png in Resources */,
+				5576D88F18B491EC008AD853 /* stop.png in Resources */,
+				5576D89218B49202008AD853 /* cansel.png in Resources */,
+				5576D88C18B491EC008AD853 /* moreapp.png in Resources */,
+				5576D89718B4920B008AD853 /* 2.png in Resources */,
+				5576D86418B3A54D008AD853 /* Main_iPad.storyboard in Resources */,
+				5576D89818B4920B008AD853 /* 3.png in Resources */,
+				5576D86918B3A54D008AD853 /* Images.xcassets in Resources */,
+				5512F28418BC74A00021CBB9 /* setting.png in Resources */,
+				5512F28618BC74AF0021CBB9 /* back.png in Resources */,
+				5576D86118B3A54D008AD853 /* Main_iPhone.storyboard in Resources */,
+				5576D85818B3A54C008AD853 /* InfoPlist.strings in Resources */,
+				5576D88E18B491EC008AD853 /* start.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5576D84618B3A54C008AD853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554032A018B4EB2200C81505 /* TimerView.m in Sources */,
+				5576D86718B3A54D008AD853 /* MainViewController.m in Sources */,
+				5540329A18B4EAEB00C81505 /* SettingView.m in Sources */,
+				5576D85E18B3A54C008AD853 /* AppDelegate.m in Sources */,
+				5576D85A18B3A54C008AD853 /* main.m in Sources */,
+				5540329D18B4EB0400C81505 /* StartView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5576D85618B3A54C008AD853 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5576D85718B3A54C008AD853 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5576D85F18B3A54D008AD853 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5576D86018B3A54D008AD853 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5576D86218B3A54D008AD853 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5576D86318B3A54D008AD853 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5576D87818B3A54D008AD853 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5576D87918B3A54D008AD853 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5576D87D18B3A54D008AD853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: kohei aihara (2T38CDKLQR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: kohei aihara (2T38CDKLQR)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "40FF2212-84BE-4343-9F1C-D865F59A2E27";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5576D87E18B3A54D008AD853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: kohei aihara (56Y5QT5GL8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: kohei aihara (56Y5QT5GL8)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "6708E502-A5E7-47D0-B7CC-A66C7AC333EC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5576D88018B3A54D008AD853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = /Users/kohei/Desktop/individsual/InstantlyTimer;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstantlyTimer/InstantlyTimer-Prefix.pch";
+				INFOPLIST_FILE = "InstantlyTimer/InstantlyTimer-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kohei/Desktop/individsual/InstantlyTimer/InstantlyTimer/applipromotion,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5576D88118B3A54D008AD853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = /Users/kohei/Desktop/individsual/InstantlyTimer;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstantlyTimer/InstantlyTimer-Prefix.pch";
+				INFOPLIST_FILE = "InstantlyTimer/InstantlyTimer-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kohei/Desktop/individsual/InstantlyTimer/InstantlyTimer/applipromotion,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5576D84518B3A54C008AD853 /* Build configuration list for PBXProject "InstantlyTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5576D87D18B3A54D008AD853 /* Debug */,
+				5576D87E18B3A54D008AD853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5576D87F18B3A54D008AD853 /* Build configuration list for PBXNativeTarget "InstantlyTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5576D88018B3A54D008AD853 /* Debug */,
+				5576D88118B3A54D008AD853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5576D84218B3A54C008AD853 /* Project object */;
+}
